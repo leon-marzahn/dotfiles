@@ -31,6 +31,10 @@ if ! type bat > /dev/null; then
     exit
 fi
 
+if ! type archey > /dev/null; then
+    echo 'Please install archey'
+fi
+
 if ! type git-extras > /dev/null; then
     echo 'You can install git-extras'
 fi
@@ -57,7 +61,7 @@ fi
 
 ### clone main repository
 echo 'Cloning dotfiles...'
-git clone -q --depth=1 https://github.com/omid/dotfiles.git ~/.dotfiles
+git clone -q --depth=1 https://github.com/leon-marzahn/dotfiles.git ~/.dotfiles
 
 ### ZSH
 if [ ! -f ~/.zsh_local ]; then

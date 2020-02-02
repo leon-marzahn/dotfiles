@@ -1,3 +1,7 @@
 zsh/oh-my-zsh
 az.completion
 zsh/zshrc.backup
+
+.idea/
+
+screenshots/.DS_Store

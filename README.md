@@ -33,3 +33,7 @@ or
 ```shell
 sh -c "$(wget https://cdn.rawgit.com/omid/dotfiles/master/install.sh -O -)"
 ```
+
+### Screenshots
+
+![Hyper Startup](./screenshots/hyper-startup.png)
