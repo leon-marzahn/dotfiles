@@ -101,5 +101,5 @@
 [include]
 	path = ~/.gitconfig_local
 [user]
-	email = omidmr@gmail.com
-	name = Omid Rad
+	email = leon.marzahn@freenet.de
+	name = Leon Marzahn
